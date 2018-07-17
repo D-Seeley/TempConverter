@@ -1,10 +1,10 @@
 class TempConverter {
     constructor () {
         this.convertFtoC = (tempF) => {
-            return tempF;
+            return (tempF - 32)* 5/9;
         };
         this.convertCtoF = (tempC) => {
-            return tempC;
+           return tempC * (9/5) + 32;
         };
     }
 }
